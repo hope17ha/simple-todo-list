@@ -141,3 +141,7 @@ input#editInput {
       margin-top: 10px;
   }
 }
+.empty {
+  font-style: italic;
+  text-align: center;
+}
