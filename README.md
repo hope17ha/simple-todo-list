@@ -1,44 +1,59 @@
-# ✅ Simple To-Do App (Vanilla JS + lit-html)
+✅ Simple To‑Do App (Vanilla JavaScript + lit‑html)
+📝 A clean and interactive To‑Do list app built with:
 
-This is a small and simple To-Do list app built with:
+⚙️ Vanilla JavaScript — no frameworks
 
-- ✅ Vanilla JavaScript (no frameworks)
-- ✅ [lit-html] for rendering the UI
-- ✅ `localStorage` to save your tasks
-- ✅ Live Server
+🧩 lit‑html for declarative UI rendering
 
----
+💾 localStorage for persistent task storage
 
-## 💡 Features
+🔄 Works seamlessly with Live Server
 
-- Add new tasks
-- Mark tasks as finished
-- Hide the "Finish" button after completing a task
-- Delete tasks
-- Tasks are saved in the browser using `localStorage`
+✨ Features
+➕ Add new tasks with the input field or press Enter
 
----
+🔝 Newest tasks appear at the top
 
-## 🚀 How to Run It
+✅ Mark tasks as finished (Finish button disappears)
 
-1. Download or clone the repo:
+✏️ Edit tasks in-place with Save & Cancel
 
-```bash
-git clone https://github.com/your-username/todo-app.git
-cd todo-app
-Open the folder in VS Code or your code editor.
+🚫 Prevent empty edits
 
-Right-click index.html and select "Open with Live Server"
-(You need the Live Server extension installed)
+🗑️ Delete tasks individually
 
-That's it — your app should open in the browser 🎉
+📐 Clean and simple styling
 
-📁 Project Structure
+🔘 Filter tasks with radio buttons:
+
+🟢 All
+
+🔴 Active
+
+⚪ Completed
+
+💤 Shows “No tasks yet. Add one!” when the list is empty
+
+🔒 Changes are saved in localStorage and reloaded automatically
+
+🚀 How to Run
+📁 Clone the repo:
+
 bash
 Copy
 Edit
-/todo-app
+git clone https://github.com/hope17ha/simple-todo-list.git
+cd simple-todo-list
+🌐 Open index.html directly in your browser
+or use 🔥 Live Server
+
+📂 Project Structure
+bash
+Copy
+Edit
+/simple-todo-list
 │
-├── index.html        # Main HTML file
-├── main.js           # JavaScript app logic
-├── README.md         # Project description
+├── index.html     # HTML layout + lit-html script
+├── main.js        # App logic, rendering, localStorage
+├── styles.css     # Styling and layout
+└── README.md      # You are here 📄
