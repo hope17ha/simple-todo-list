@@ -54,6 +54,9 @@ Edit
 /simple-todo-list
 │
 ├── index.html     # HTML layout + lit-html script
+
 ├── main.js        # App logic, rendering, localStorage
+
 ├── styles.css     # Styling and layout
+
 └── README.md      # You are here 📄
